@@ -40,7 +40,7 @@ La aplicación web utiliza una sola tabla llamada "images" en la base de datos p
 -   `user_name`: nombre del autor de la foto
 -   `webformatURL`: URL de la imagen de la foto
 
-(https://i.imgur.com/bRfdwX3.png)
+![Modelo Entidad Relación](https://i.imgur.com/bRfdwX3.png)
 
 ### Controladores REST CRUD
 
