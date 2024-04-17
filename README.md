@@ -13,7 +13,7 @@ La aplicación web de galería de fotos es una plataforma en línea donde los us
 
 Los usuarios pueden agregar una nueva foto a la galería proporcionando el nombre, autor y URL de la imagen. El backend de Spring API tiene un controlador REST CRUD para manejar las solicitudes de creación de nuevas fotos.
 
-### Buscar fotos
+### Buscar fotos (no funcional)
 
 La aplicación web tiene una barra de búsqueda en la parte superior de la página donde los usuarios pueden buscar fotos por nombre o autor.
 
@@ -39,6 +39,8 @@ La aplicación web utiliza una sola tabla llamada "images" en la base de datos p
 -   `name`: nombre de la foto
 -   `user_name`: nombre del autor de la foto
 -   `webformatURL`: URL de la imagen de la foto
+
+(https://i.imgur.com/bRfdwX3.png)
 
 ### Controladores REST CRUD
 
