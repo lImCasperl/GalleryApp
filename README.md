@@ -44,14 +44,63 @@ La aplicación web utiliza una sola tabla llamada "images" en la base de datos p
 
 El backend de Spring API tiene los siguientes controladores REST CRUD para manejar las solicitudes de creación, lectura, actualización y eliminación de fotos:
 
--   `CreateImageController`: maneja las solicitudes de creación de nuevas fotos
--   `ReadImageController`: maneja las solicitudes de lectura de fotos existentes
--   `UpdateImageController`: maneja las solicitudes de actualización de fotos existentes
--   `DeleteImageController`: maneja las solicitudes de eliminación de fotos existentes
+-   `PostImage`: maneja las solicitudes de creación de nuevas fotos
+-   `GetImage`: maneja las solicitudes de lectura de fotos existentes
+-   `UpdateImage`: maneja las solicitudes de actualización de fotos existentes
+-   `DeleteImage`: maneja las solicitudes de eliminación de fotos existentes
 
-### Implementación
+## Caso de Uso
 
-La aplicación web se implementará en un servidor web y estará disponible en línea para que los usuarios puedan acceder a ella desde cualquier dispositivo con conexión a internet.
+### Actor Principal: Usuario de la aplicación de galería de fotos
+
+1. **Agregar nueva foto**
+   - El usuario da click al botón "Add a new Image!"
+   - El usuario puede agregar una nueva foto a la galería proporcionando el nombre, autor y URL de la imagen.
+   
+2. **Buscar foto**
+   - El usuario puede buscar fotos por nombre o autor utilizando la barra de búsqueda.
+   
+3. **Ver galería de fotos**
+   - El usuario puede ver todas las fotos en una cuadrícula con su título y autor correspondiente.
+
+## Cronograma
+
+1. **Día 1-2: Diseño y Planificación**
+   - Definir requisitos y funcionalidades.
+   - Diseñar la interfaz de usuario.
+   
+2. **Día 3-4: Desarrollo Backend**
+   - Configurar la API de Spring.
+   - Crear la tabla de imágenes en la base de datos.
+   - Implementar controladores REST CRUD.
+   
+3. **Día 5-6: Desarrollo Frontend**
+   - Configurar el entorno de desarrollo con React + Vite.
+   - Diseñar y desarrollar la interfaz de usuario con Tailwind CSS.
+   
+4. **Día 7: Integración y Pruebas**
+   - Integrar el frontend y el backend.
+   - Realizar pruebas de funcionalidad y rendimiento.
+
+## Mapa de Navegación
+
+1. **Página Principal**
+   - Título: "Photo Gallery"
+   - Botón: "Agregar Nueva Imagen"
+   - Barra de Búsqueda
+   
+2. **Galería de Fotos**
+   - Cuadrícula de fotos con título y autor
+   
+3. **Agregar Nueva Imagen**
+   - Formulario para agregar nombre, autor y URL de la imagen
+   
+4. **Resultado de Búsqueda**
+   - Muestra las fotos que coinciden con la búsqueda realizada
+   
+5. **Detalles de la Imagen**
+   - Muestra información detallada de una imagen específica seleccionada
+   
 
 ### Conclusiones
 
